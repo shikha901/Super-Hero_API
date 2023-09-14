@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find Your SuperHero</title>
+        <link rel = "stylesheet" href = "main.css">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        
+        <div class = "main-wrapper">
+            <div class = "app">
+                <!-- app header -->
+                <div class = "app-header">
+                    <h2 class = "app-header-title">Super<span>Hero.</span></h2>
+                    <form class = "app-header-search">
+                        <input type = "text" class = "form-control" placeholder="Search your superhero here ..." name = "search">
+                        <button type = "submit" class = "search-btn">
+                        <i class = "fas fa-search"></i>
+                        </button>
+                        <div class = "search-list" id = "search-list">
+                            <!-- <div class = "search-list-item">
+                                <img src = "images/thumbnail-batman.jpg" alt = "">
+                                <p>Batman</p>
+                            </div> -->
+                        </div>
+                    </form>
+                </div>
+                <!-- end of app header -->
+                <div class="fav-display">
+                    <div class="list-fav">
+                        <ul id="favlist"></ul>
+                    </div>
+                    <div class="go-to-home">
+                       <a href="index.html"> <button class="button-75 fav-btn-gap" role="button"><span class="text">Home</span></button></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script type="text/javascript" src="favourite.js"></script>
+        <!-- <script src = "app.js"></script> -->
+        
+    </body>
+</html>
